@@ -5,9 +5,7 @@ count - itertools
 from itertools import count
 
 contador = count()
+lista =['luiz', 'joao', 'maria', 'jose', 'silva']
 
-for valor in contador:
-    print(valor)
-
-    if valor >= 10:
-        break
+lista = zip(contador, lista)
+print(list(lista))
